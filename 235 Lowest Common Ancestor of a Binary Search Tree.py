@@ -16,3 +16,5 @@ class Solution:
             return root
         else:
             return left or right
+#Time Complexity: O(n) because in worst case all the nodes of BST are visited
+#Space Complexity: O(n) because maximum space used by recursion is n, the height of the BST, used which is n
